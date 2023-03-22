@@ -39,7 +39,7 @@ variable "parameter_group_name" {
 }
 
 variable "publicly_accessible" {
-  type = bool
+  type        = bool
   description = "This varible represent publicly accessible added or not"
 }
 
@@ -49,6 +49,6 @@ variable "skip_final_snapshot" {
 }
 
 variable "final_snapshot_identifier" {
-  type = bool
+  type        = bool
   description = "This variable represents the final shot is added or not"
 }
