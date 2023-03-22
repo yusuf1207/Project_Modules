@@ -32,7 +32,7 @@ variable "associate_public_ip_address" {
   type        = bool
   description = "This variable represents pulic ip address for instance"
 }
-# variable "iam_instance_profile" {
-#   type        = bool
-#   description = "This variable represents instance profile"
-# }
+variable "iam_instance_profile" {
+  type        = bool
+  description = "This variable represents instance profile"
+}
